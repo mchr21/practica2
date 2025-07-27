@@ -1,0 +1,260 @@
+{
+  "peliculas": [
+    {
+      "id": 1,
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "director": "Peter Jackson",
+      "gestion": 2001,
+      "genero": "Fantasía",
+      "calificacion": "PG-13",
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "titulo": "Matrix",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "gestion": 1999,
+      "genero": "Ciencia Ficción",
+      "calificacion": "R",
+      "stock": 3
+    },
+    {
+      "id": 3,
+      "titulo": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "gestion": 1994,
+      "genero": "Crimen",
+      "calificacion": "R",
+      "stock": 2
+    },
+    {
+      "id": 4,
+      "titulo": "Interestelar",
+      "director": "Christopher Nolan",
+      "gestion": 2014,
+      "genero": "Ciencia Ficción",
+      "calificacion": "PG-13",
+      "stock": 4
+    },
+    {
+      "id": 5,
+      "titulo": "El Origen",
+      "director": "Christopher Nolan",
+      "gestion": 2010,
+      "genero": "Ciencia Ficción",
+      "calificacion": "PG-13",
+      "stock": 6
+    },
+    {
+      "id": 6,
+      "titulo": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "gestion": 1994,
+      "genero": "Drama",
+      "calificacion": "PG-13",
+      "stock": 7
+    },
+    {
+      "id": 7,
+      "titulo": "La Vida es Bella",
+      "director": "Roberto Benigni",
+      "gestion": 1997,
+      "genero": "Drama",
+      "calificacion": "PG-13",
+      "stock": 3
+    },
+    {
+      "id": 8,
+      "titulo": "Gladiador",
+      "director": "Ridley Scott",
+      "gestion": 2000,
+      "genero": "Acción",
+      "calificacion": "R",
+      "stock": 4
+    },
+    {
+      "id": 9,
+      "titulo": "El Rey León",
+      "director": "Roger Allers, Rob Minkoff",
+      "gestion": 1994,
+      "genero": "Animación",
+      "calificacion": "G",
+      "stock": 8
+    },
+    {
+      "id": 10,
+      "titulo": "Titanic",
+      "director": "James Cameron",
+      "gestion": 1997,
+      "genero": "Romance",
+      "calificacion": "PG-13",
+      "stock": 5
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Ana García",
+      "telefono": "555-1234",
+      "direccion": "Calle Falsa 123",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 2,
+      "nombre": "Luis Pérez",
+      "telefono": "555-5678",
+      "direccion": "Avenida Siempre Viva 742",
+      "calificacion": "Buena"
+    },
+    {
+      "id": 3,
+      "nombre": "Marta López",
+      "telefono": "555-9012",
+      "direccion": "Plaza Mayor 1",
+      "calificacion": "Regular"
+    },
+    {
+      "id": 4,
+      "nombre": "Carlos Ruiz",
+      "telefono": "555-3456",
+      "direccion": "Calle del Sol 45",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 5,
+      "nombre": "Sofía Díaz",
+      "telefono": "555-7890",
+      "direccion": "Bulevar de los Sueños 88",
+      "calificacion": "Buena"
+    }
+  ],
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Juan Empleado",
+      "usuario": "juan.e",
+      "password": "pass123",
+      "rol": "Empleado"
+    },
+    {
+      "id": 2,
+      "nombre": "María Supervisora",
+      "usuario": "maria.s",
+      "password": "superpass",
+      "rol": "Supervisor"
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro Administrador",
+      "usuario": "pedro.a",
+      "password": "adminpass",
+      "rol": "Administrador"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Empleada",
+      "usuario": "laura.e",
+      "password": "pass456",
+      "rol": "Empleado"
+    },
+    {
+      "id": 5,
+      "nombre": "Roberto Supervisor",
+      "usuario": "roberto.s",
+      "password": "superpass2",
+      "rol": "Supervisor"
+    }
+  ],
+  "alquileres": [
+    {
+      "id": 1,
+      "idpelicula": 1,
+      "idcliente": 1,
+      "idempleado": 1,
+      "fecha_alquiler": "2023-01-10",
+      "fecha_devolucion": "2023-01-15",
+      "monto": 3.50
+    },
+    {
+      "id": 2,
+      "idpelicula": 2,
+      "idcliente": 2,
+      "idempleado": 1,
+      "fecha_alquiler": "2023-01-12",
+      "fecha_devolucion": "2023-01-17",
+      "monto": 4.00
+    },
+    {
+      "id": 3,
+      "idpelicula": 3,
+      "idcliente": 3,
+      "idempleado": 2,
+      "fecha_alquiler": "2023-01-15",
+      "fecha_devolucion": "2023-01-20",
+      "monto": 3.00
+    },
+    {
+      "id": 4,
+      "idpelicula": 4,
+      "idcliente": 4,
+      "idempleado": 2,
+      "fecha_alquiler": "2023-01-18",
+      "fecha_devolucion": "2023-01-23",
+      "monto": 4.50
+    },
+    {
+      "id": 5,
+      "idpelicula": 5,
+      "idcliente": 5,
+      "idempleado": 3,
+      "fecha_alquiler": "2023-01-20",
+      "fecha_devolucion": "2023-01-25",
+      "monto": 3.75
+    },
+    {
+      "id": 6,
+      "idpelicula": 1,
+      "idcliente": 2,
+      "idempleado": 4,
+      "fecha_alquiler": "2023-01-22",
+      "fecha_devolucion": "2023-01-27",
+      "monto": 3.50
+    },
+    {
+      "id": 7,
+      "idpelicula": 6,
+      "idcliente": 1,
+      "idempleado": 4,
+      "fecha_alquiler": "2023-01-25",
+      "fecha_devolucion": "2023-01-30",
+      "monto": 3.25
+    },
+    {
+      "id": 8,
+      "idpelicula": 7,
+      "idcliente": 3,
+      "idempleado": 5,
+      "fecha_alquiler": "2023-01-28",
+      "fecha_devolucion": "2023-02-02",
+      "monto": 3.00
+    },
+    {
+      "id": 9,
+      "idpelicula": 8,
+      "idcliente": 4,
+      "idempleado": 5,
+      "fecha_alquiler": "2023-02-01",
+      "fecha_devolucion": "2023-02-06",
+      "monto": 4.00
+    },
+    {
+      "id": 10,
+      "idpelicula": 9,
+      "idcliente": 5,
+      "idempleado": 3,
+      "fecha_alquiler": "2023-02-03",
+      "fecha_devolucion": "2023-02-08",
+      "monto": 2.75
+    }
+  ]
+}

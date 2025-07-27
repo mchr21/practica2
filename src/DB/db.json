@@ -1,0 +1,331 @@
+{
+  "peliculas": [
+    {
+      "id": 3,
+      "titulo": "Pulp Fiction",
+      "director": "Quentin Tarantino",
+      "año": 1994,
+      "genero": "Crimen",
+      "calificacion": "R",
+      "stock": 2
+    },
+    {
+      "id": 4,
+      "titulo": "Interestelar",
+      "director": "Christopher Nolan",
+      "año": 2014,
+      "genero": "Ciencia Ficción",
+      "calificacion": "PG-13",
+      "stock": 4
+    },
+    {
+      "id": 5,
+      "titulo": "El Origen",
+      "director": "Christopher Nolan",
+      "año": 2010,
+      "genero": "Ciencia Ficción",
+      "calificacion": "PG-13",
+      "stock": 6
+    },
+    {
+      "id": 6,
+      "titulo": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "año": 1994,
+      "genero": "Drama",
+      "calificacion": "PG-13",
+      "stock": 7
+    },
+    {
+      "id": 8,
+      "titulo": "Gladiador",
+      "director": "Ridley Scott",
+      "año": 2000,
+      "genero": "Acción",
+      "calificacion": "R",
+      "stock": 4
+    },
+    {
+      "id": 9,
+      "titulo": "El Rey León",
+      "director": "Roger Allers, Rob Minkoff",
+      "año": 1994,
+      "genero": "Animación",
+      "calificacion": "G",
+      "stock": 8
+    },
+    {
+      "id": 10,
+      "titulo": "Titanic",
+      "director": "James Cameron",
+      "año": 1997,
+      "genero": "Romance",
+      "calificacion": "PG-13",
+      "stock": 5
+    },
+    {
+      "id": 11,
+      "titulo": "El Padrino",
+      "director": "Francis Ford Coppola",
+      "año": 1972,
+      "genero": "Drama",
+      "calificacion": "R",
+      "stock": 5
+    },
+    {
+      "id": 12,
+      "titulo": "Tiburón",
+      "director": "Steven Spielberg",
+      "año": 1975,
+      "genero": "Suspenso",
+      "calificacion": "PG",
+      "stock": 3
+    },
+    {
+      "id": 13,
+      "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+      "director": "Peter Jackson",
+      "año": 2001,
+      "genero": "Fantasia",
+      "calificacion": "PG-13",
+      "stock": 7
+    },
+    {
+      "id": 14,
+      "titulo": "El Señor de los Anillos: Las Dos Torres",
+      "director": "Peter Jackson",
+      "año": 2002,
+      "genero": "Fantasia",
+      "calificacion": "PG-13",
+      "stock": 6
+    },
+    {
+      "id": 15,
+      "titulo": "El Señor de los Anillos: El Retorno del Rey",
+      "director": "Peter Jackson",
+      "año": 2003,
+      "genero": "Fantasia",
+      "calificacion": "PG-13",
+      "stock": 8
+    },
+    {
+      "id": 16,
+      "titulo": "Origen",
+      "director": "Christopher Nolan",
+      "año": 2010,
+      "genero": "Ciencia Ficcion",
+      "calificacion": "PG-13",
+      "stock": 5
+    },
+    {
+      "id": 17,
+      "titulo": "Interstellar",
+      "director": "Christopher Nolan",
+      "año": 2014,
+      "genero": "Ciencia Ficcion",
+      "calificacion": "PG-13",
+      "stock": 4
+    },
+    {
+      "id": 18,
+      "titulo": "Parasitos",
+      "director": "Bong Joon-ho",
+      "año": 2019,
+      "genero": "Comedia Negra",
+      "calificacion": "R",
+      "stock": 3
+    },
+    {
+      "id": 19,
+      "titulo": "La La Land",
+      "director": "Damien Chazelle",
+      "año": 2016,
+      "genero": "Musical",
+      "calificacion": "PG-13",
+      "stock": 6
+    },
+    {
+      "id": 20,
+      "titulo": "Whiplash",
+      "director": "Damien Chazelle",
+      "año": 2014,
+      "genero": "Drama",
+      "calificacion": "R",
+      "stock": 4
+    },
+    {
+      "id": 21,
+      "titulo": "Spider-Man: Un Nuevo Universo",
+      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      "año": 2018,
+      "genero": "Animacion",
+      "calificacion": "PG",
+      "stock": 7
+    },
+    {
+      "id": 22,
+      "titulo": "Coco",
+      "director": "Lee Unkrich, Adrian Molina",
+      "año": 2017,
+      "genero": "Animacion",
+      "calificacion": "PG",
+      "stock": 5
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Ana García",
+      "telefono": "555-1234",
+      "direccion": "Calle Falsa 123",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 3,
+      "nombre": "Marta López",
+      "telefono": "555-9012",
+      "direccion": "Plaza Mayor 1",
+      "calificacion": "Regular"
+    },
+    {
+      "id": 4,
+      "nombre": "Carlos Ruiz",
+      "telefono": "555-3456",
+      "direccion": "Calle del Sol 45",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 5,
+      "nombre": "Sofía Díaz",
+      "telefono": "555-7890",
+      "direccion": "Bulevar de los Sueños 88",
+      "calificacion": "Buena"
+    },
+    {
+      "id": 6,
+      "nombre": "Pedro Martinez",
+      "telefono": "555-1122",
+      "direccion": "Calle Principal 100",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 7,
+      "nombre": "Laura Gomez",
+      "telefono": "555-3344",
+      "direccion": "Avenida Central 50",
+      "calificacion": "Buena"
+    },
+    {
+      "id": 8,
+      "nombre": "Miguel Torres",
+      "telefono": "555-5566",
+      "direccion": "Callejon Secreto 1",
+      "calificacion": "Regular"
+    },
+    {
+      "id": 9,
+      "nombre": "Isabel Fernandez",
+      "telefono": "555-7788",
+      "direccion": "Plaza de la Luna 10",
+      "calificacion": "Excelente"
+    },
+    {
+      "id": 10,
+      "nombre": "Ricardo Sanchez",
+      "telefono": "555-9900",
+      "direccion": "Bulevar del Sol 25",
+      "calificacion": "Buena"
+    },
+    {
+      "id": 11,
+      "nombre": "Elena Ramirez",
+      "telefono": "555-1100",
+      "direccion": "Calle de la Paz 30",
+      "calificacion": "Regular"
+    }
+  ],
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Juan Empleado",
+      "usuario": "juan.e",
+      "password": "pass123uuuuu",
+      "rol": "Empleado"
+    },
+    {
+      "id": 4,
+      "nombre": "Laura Empleada",
+      "usuario": "laura.e",
+      "password": "pass456",
+      "rol": "Empleado"
+    },
+    {
+      "id": 5,
+      "nombre": "Roberto Supervisor",
+      "usuario": "roberto.s",
+      "password": "superpass2",
+      "rol": "Supervisor"
+    },
+    {
+      "id": 6,
+      "nombre": "Ana Admin",
+      "usuario": "ana.a",
+      "password": "admin123",
+      "rol": "Administrador"
+    },
+    {
+      "id": 7,
+      "nombre": "weqweq",
+      "usuario": "qweqweq",
+      "password": "qweqweqew",
+      "rol": "qweqweqe"
+    }
+  ],
+  "alquileres": [
+    {
+      "id": 2,
+      "idpelicula": 2,
+      "idcliente": 2,
+      "idempleado": 1,
+      "fecha_alquiler": "2023-01-12",
+      "fecha_devolucion": "2023-01-17",
+      "monto": 10
+    },
+    {
+      "id": 3,
+      "idpelicula": 3,
+      "idcliente": 3,
+      "idempleado": 2,
+      "fecha_alquiler": "2023-01-15",
+      "fecha_devolucion": "2023-01-20",
+      "monto": 5
+    },
+    {
+      "id": 4,
+      "idpelicula": 4,
+      "idcliente": 4,
+      "idempleado": 2,
+      "fecha_alquiler": "2023-01-18",
+      "fecha_devolucion": "2023-01-23",
+      "monto": 15
+    },
+    {
+      "id": 5,
+      "idpelicula": 5,
+      "idcliente": 5,
+      "idempleado": 3,
+      "fecha_alquiler": "2023-01-20",
+      "fecha_devolucion": "2023-01-25",
+      "monto": 10
+    },
+    {
+      "id": 7,
+      "idpelicula": 11,
+      "idcliente": 6,
+      "idempleado": 6,
+      "fecha_alquiler": "2023-02-01",
+      "fecha_devolucion": "2023-02-08",
+      "monto": 10
+    }
+  ]
+}

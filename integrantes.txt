@@ -1,0 +1,13 @@
+Practica 2 Vue3  
+Nombre(s) de integrante(s):  
+- Bladimir Marcelo Barrios Castellon  
+- Maribel Choque Rengel  
+
+Pasos para iniciar el proyecto  
+1) npm install  
+2) json-server --watch db.json --port 3000  
+    (base de datos en practica2/src/DB)
+3) npm run serve
+
+El backend estará disponible en:  
+http://localhost:3000
